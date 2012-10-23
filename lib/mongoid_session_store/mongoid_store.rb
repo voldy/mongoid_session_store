@@ -3,7 +3,7 @@ module ActionDispatch
     class MongoidStore < AbstractStore
 
       class Session
-        include Mongoid::Document
+        include ::Mongoid::Document
         
         store_in :sessions
 
